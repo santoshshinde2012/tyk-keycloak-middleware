@@ -2,6 +2,10 @@
 
 This is the starter for keycloak and tyk middleware using Javascript
 
+### Run the Application
+
+`docker-compose up`
+
 ### Create Middleware
 
 An object of middleware is created by calling the `TykJS.TykMiddleware.NewMiddleware({})` constructor and then initializing it with your function using the `NewProcessRequest()` closure syntax.
